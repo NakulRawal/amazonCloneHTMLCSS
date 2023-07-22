@@ -240,3 +240,62 @@ ul {
 .copyright {
   padding-top: 5px;
 }
+/* extra */
+.panel-all {
+  display: none;
+}
+/* media qurey */
+@media (max-width: 1027px) {
+  .nav-address {
+    display: none;
+  }
+  .nav-signin {
+    display: none;
+  }
+  .nav-return {
+    display: none;
+  }
+  .panel-ops {
+    display: none;
+  }
+  .panel-deals {
+    display: none;
+  }
+  .panel-all {
+    display: flex;
+  }
+  .panel {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-msg {
+    padding: 5px;
+    margin-bottom: 50%;
+  }
+  .hero-section {
+    background-size: auto;
+  }
+  .foot-panel3 {
+    display: none;
+  }
+  .foot-panel3 .logo {
+    display: none;
+  }
+  .box {
+    height: fit-content;
+    width: 100%;
+  }
+  .foot-panel2 {
+    padding-bottom: 50px;
+  }
+  .foot-panel2 ul {
+    padding: 3px;
+    font-size: 0.9rem;
+  }
+  .foot-panel4 {
+    padding: 10px;
+  }
+  .nav-cart {
+    padding-right: 2px;
+  }
+}
